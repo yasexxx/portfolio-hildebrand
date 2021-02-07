@@ -1,0 +1,45 @@
+
+.containerFooter {
+    background: #ffffff;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialLink {
+    display: flex;
+    column-gap: 1rem;
+    font-size: 25px;
+}
+.socialLink a{
+    color: black;
+}
+.socialLink a:hover{
+    color: rgb(59, 49, 49);
+}
+.nameLabel {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+a.nameLabel{
+    color: black;
+    margin: 0 0 0 1rem;
+}
+a.nameLabel:hover{
+    text-decoration: none;
+    color: rgb(59, 49, 49);
+    border-bottom: 1px dotted rgb(59, 49, 49);
+}
+
+@media(max-width: 419px){
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

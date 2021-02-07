@@ -1,0 +1,17 @@
+.containerEdu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(238, 226, 226);
+}
+.containerEdu a{
+    color: rgb(238, 226, 226);;
+    border-bottom: 1px dotted white;
+    font-size: 14px;
+}
+.containerEdu a:hover{
+    border-bottom: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.containerEdu span {
+    font-size: 14px;
+}
