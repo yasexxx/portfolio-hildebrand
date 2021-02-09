@@ -160,7 +160,7 @@ export default function Home({ profile, portfolio, error}){
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     try {
         const res = await fetchWithCache(`${process.env.API_URL}${apiUrl}/main-profile`);
         const profile = res;
